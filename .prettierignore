@@ -1,0 +1,14 @@
+node_modules/
+.git
+.gitignore
+README.md
+LICENSE
+package-lock.json
+.output
+.data
+.nuxt
+.nitro
+.cache
+.out
+dist/
+build/

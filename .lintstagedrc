@@ -1,0 +1,5 @@
+{
+  "*": "prettier --ignore-unknown --write",
+  "*.{js,ts,vue}": "eslint --fix",
+  "./!(browsers)/**/*.json": "npm run lint:fix"
+}

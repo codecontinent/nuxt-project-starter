@@ -17,6 +17,19 @@ logs
 .DS_Store
 .fleet
 .idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Others
+.husky/*
+!.husky/_/*
+!.husky/pre-commit
+!.husky/pre-push
+!.husky/commit-msg
+
 
 # Local env files
 .env
