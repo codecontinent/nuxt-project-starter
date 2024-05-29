@@ -32,5 +32,21 @@
     "husky": "^9.0.11",
     "lint-staged": "^15.2.5",
     "prettier": "^3.2.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codecontinent/nuxt-project-starter.git"
+  },
+  "contributors": [
+    {
+      "name": "Mahabub",
+      "email": "mahabubx7@gmail.com"
+    }
+  ],
+  "author": "Code Continent",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/codecontinent/nuxt-project-starter/issues"
+  },
+  "homepage": "https://github.com/codecontinent/nuxt-project-starter#readme"
 }
