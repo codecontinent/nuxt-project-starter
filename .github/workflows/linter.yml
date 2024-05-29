@@ -18,9 +18,10 @@ jobs:
         run: |
           if [ -d "node_modules" ]; then
             echo "Error: node_modules directory exists! Please remove ❌ it from your PR. & push again."
+            exit 1
           else
             echo "node_modules directory does not exist in the PR or commit ✅. Good to go!"
-            exit 1
+            exit 0
           fi
       - name: Checkout code
         uses: actions/checkout@v2
